@@ -9,9 +9,6 @@ export default function BrandPortal(config = {name: 'Not Implemented'}) {
     return (
         <Box style={brandPortalStyle}>
             <h3>{ config.name }</h3>
-
-            <Button onClick={redirectToShow}>Let's Eat</Button>
-
             <Link to='show'>Let's Eat</Link>
         </Box>
     )
